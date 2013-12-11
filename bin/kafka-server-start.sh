@@ -35,4 +35,6 @@ case $COMMAND in
     ;;
 esac
 
+export SCALA_VERSION=2.9.2
+
 exec $base_dir/kafka-run-class.sh $EXTRA_ARGS kafka.Kafka $@
